@@ -1,2 +1,4 @@
 #ignore the big boi node_modules.
 node_modules
+
+.log
