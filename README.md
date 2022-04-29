@@ -1,9 +1,18 @@
-# Simple Grid
-A lightweight, responsive CSS grid  
+# Simplified-Grid
+A lightweight, simple adaptation of Zach Cole's [Simple Grid](https://github.com/zachacole/Simple-Grid)
 
-Developed by Zach Cole
+Originally Developed by Zach Cole, modified by me for use in my personal projects.
 
-## Simple Grid and Simple Code
+## Scripts
+This fork of the repo has scripts built in to convert the SCSS to CSS and `min.css` files.
+
+Run: 
+```
+yarn install && yarn build
+```
+to get the finalized files in `/bin/`.
+
+## Simple Grid and Simple Code (Original Description)
 
 Simple Grid is a mobile-first 12-column CSS grid system to make developing responsive websites easy and fast.
 
@@ -12,8 +21,6 @@ All the code you need is simple and familiar. A parent container class contains 
 To define your column width, declare how many columns you want your content to take up on desktop and large screens. For example, if your content should take up 6 out of 12 columns (or half the container), your class name will be .col-6.
 
 If you don’t want columns to expand on mobile devices and small screens, simply add -sm to the end of your column class name. For example, if you want to have two blocks of content floating side-by-side on small screens, each would be given the class name .col-6-sm.
-
-Update: Grid styles are now available in SASS/SCSS. Hooray! Thanks to [shankariyerr](https://github.com/shankariyerr/) for contributing as well.
 
 Learn more and see code samples at: http://simplegrid.io
 

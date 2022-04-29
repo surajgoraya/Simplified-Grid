@@ -1,0 +1,17 @@
+{
+  "name": "simplegrid",
+  "version": "1.0.0",
+  "description": "A simple, lightweight CSS grid",
+  "scripts": {
+    "build": "sass simplified-grid.scss ./bin/simplified-grid.css && sass --style=compressed simplified-grid.scss ./bin/simplified-grid.min.css"
+  },
+  "author": "Zach Cole & Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajgoraya/simplegrid/issues"
+  },
+  "homepage": "https://github.com/surajgoraya/simplegrid#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
